@@ -7,18 +7,16 @@
     <body>
         <div><h1><a href=”/”>Our blog</a></h1></div>
         <div>
-            {{ posts }}
+            <h2><a href=””>First post</a></h2>
+            <p>Published on: 14.06.2019, 12:14</p>
+            <p>Στην Ελλάδα για λογαριασμό της ΑΕΚ έφτασε το μεσημέρι της Τετάρτης (31/1) ο
+                Ρόμπερτ Λιούμπιτσιτς, προκειμένου να ολοκληρώσει και το τυπικό σκέλος της
+                σπουδαίας του μεταγραφής στην «Ένωση».</p>
         </div>
-        <div>
-            {{ posts }}
+        <div><h2><a href=””>Second post</a></h2>
+             <p>Published on: 14.06.2019, 12:14</p>
+             <p>Σύμφωνα με όσα μετέφερε ο  Νικολακόπουλος ο Ολυμπιακός κλείνει τον Καμπράλ
+                 αλλά και είναι ακόμη ανοικτό το ενδεχόμενο για τον Βέζο.</p>
         </div>
     </body>
 </html>
-
-{% for post in posts %}
-    <div>
-        <h2><a href="">{{ post.title }}</a></h2>
-        <p>published: {{ post.published_date }}</p>
-        <p>{{ post.text|linebreaksbr }}</p>
-    </div>
-{% endfor %}
