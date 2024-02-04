@@ -107,7 +107,7 @@ h1, h2, h3, h4 {
 .book-list {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: 20px;
 }
 
 .book-panel {
