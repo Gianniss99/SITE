@@ -1,0 +1,27 @@
+{% extends 'books/base.html' %}
+
+{% block content %}
+    {% for book in books %}
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h2><a href="{% url 'book_detail' pk=book.pk %}">{{ book.title }}</a></h2>
+        </div>
+        <div class="panel-body">
+            {% if book.author %}
+                <p>Συγγραφέας: <a href="{% url 'book_list' %}?auth={{ book.author.id }}">{{ book.author.first_name }} {{ book.author.last_name }}</a></p>
+            {% endif %}
+            {% if book.publisher %}
+                <p>Εκδόσεις: <a href="{% url 'book_list' %}?pub={{ book.publisher.id }}">{{ book.publisher.name }}</a></p>
+            {% endif %}
+            <p>Έτος Έκδοσης: {{ book.publish_year }}</p>
+            {% if book.category %}
+                <p>Κατηγορία: <a href="{% url 'book_list' %}?cat={{ book.category.id }}">{{ book.category.name }}</a></p>
+            {% endif %}
+            <p>Σελίδες: {{ book.pages }}</p>
+            <p>{{ book.summary|linebreaksbr }}</p>
+        </div>
+    </div>
+    {% empty %}
+        <p>Δεν υπάρχουν βιβλία για εμφάνιση.</p>
+    {% endfor %}
+{% endblock content %}
