@@ -8,9 +8,10 @@
         </div>
         <div class="panel-body">
             {% if book.cover %}
-            <img src="{{ book.cover.url }}" alt="Εξώφυλλο του βιβλίου {{ book.title }}">
+                <img src="{{ book.cover.url }}" alt="Εξώφυλλο του βιβλίου {{ book.title }}">
             {% endif %}
-                <p>Συγγραφέας: <a href="{% url 'book_list' %}?auth={{ book.author.id }}">{{ book.author.first_name }} {{ book.author.last_name }}</a> Εκδόσεις: <a href="{% url 'book_list' %}?pub={{ book.publisher.id }}">{{ book.publisher.name }}</a></p>
+                <p>Συγγραφέας: {{ book.author.first_name }} {{ book.author.last_name }}</a></p>
+                <p>Εκδόσεις: {{ book.publisher.name }}</a></p>
         </div>
     </div>
     {% empty %}
