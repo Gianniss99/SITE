@@ -2,31 +2,28 @@
 
 {% block content %}
     <div class="book-detail">
-        <div class="top-section">
-            <!-- Image at the top right -->
-            {% if book.cover %}
-                <img src="{{ book.cover.url }}" alt="Εξώφυλλο του βιβλίου {{ book.title }}" class="book-cover">
+        <img src="{{ book.cover.url }}" alt="Εξώφυλλο του βιβλίου {{ book.title }}" class="book-cover">
+
+        <div class="text-section">
+            <h2>{{ book.title }}</h2>
+            {% if book.author %}
+                <p><strong>Συγγραφέας:</strong> <a href="{% url 'book_list' %}?auth={{ book.author.id }}">{{ book.author.first_name }} {{ book.author.last_name }}</a></p>
             {% endif %}
+            {% if book.publisher %}
+                <p><strong>Εκδόσεις:</strong> <a href="{% url 'book_list' %}?pub={{ book.publisher.id }}">{{ book.publisher.name }}</a></p>
+            {% endif %}
+            <p><strong>Έτος Έκδοσης:</strong> {{ book.publish_year }}</p>
+            {% if book.category %}
+                <p><strong>Κατηγορία:</strong> <a href="{% url 'book_list' %}?cat={{ book.category.id }}">{{ book.category.name }}</a></p>
+            {% endif %}
+            <p><strong>Σελίδες:</strong> {{ book.pages }}</p>
+
+            <p><strong>Περίληψη:</strong> {{ book.summary }}</p>
+            {% if book.author.biography %}
+                <p><strong>Προφίλ Συγγραφέα:</strong> {{ book.author.biography }}</p>
+            {% endif %}
+            <!-- Return Button -->
+            <a href="{% url 'book_list' %}" class="btn btn-primary">Επιστροφή</a>
         </div>
-
-        <h2>{{ book.title }}</h2>
-        {% if book.author %}
-            <p><strong>Συγγραφέας:</strong> <a href="{% url 'book_list' %}?auth={{ book.author.id }}">{{ book.author.first_name }} {{ book.author.last_name }}</a></p>
-        {% endif %}
-        {% if book.publisher %}
-            <p><strong>Εκδόσεις:</strong> <a href="{% url 'book_list' %}?pub={{ book.publisher.id }}">{{ book.publisher.name }}</a></p>
-        {% endif %}
-        <p><strong>Έτος Έκδοσης:</strong> {{ book.publish_year }}</p>
-        {% if book.category %}
-            <p><strong>Κατηγορία:</strong> <a href="{% url 'book_list' %}?cat={{ book.category.id }}">{{ book.category.name }}</a></p>
-        {% endif %}
-        <p><strong>Σελίδες:</strong> {{ book.pages }}</p>
-
-        <p><strong>Περίληψη:</strong> {{ book.summary }}</p>
-        {% if book.author.biography %}
-            <p><strong>Προφίλ Συγγραφέα:</strong> {{ book.author.biography }}</p>
-        {% endif %}
-        <!-- Return Button -->
-        <a href="{% url 'book_list' %}" class="btn btn-primary">Επιστροφή</a>
     </div>
 {% endblock %}
