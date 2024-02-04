@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8c78d5ee-7433-43b8-9da9-1befc9afb78e" name="Changes" comment="1.1 book_details">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/books/static/css/books.css" beforeDir="false" afterPath="$PROJECT_DIR$/books/static/css/books.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/books/templates/books/book_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/books/templates/books/book_list.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,38 +118,6 @@
       <option name="presentableId" value="Default" />
       <updated>1706785175029</updated>
       <workItem from="1706785211079" duration="59452000" />
-    </task>
-    <task id="LOCAL-00029" summary="1.1 book_details">
-      <option name="closed" value="true" />
-      <created>1707072350771</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1707072350771</updated>
-    </task>
-    <task id="LOCAL-00030" summary="1.1 book_details">
-      <option name="closed" value="true" />
-      <created>1707072423022</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1707072423022</updated>
-    </task>
-    <task id="LOCAL-00031" summary="1.1 book_details">
-      <option name="closed" value="true" />
-      <created>1707072465136</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1707072465136</updated>
-    </task>
-    <task id="LOCAL-00032" summary="1.1 book_details">
-      <option name="closed" value="true" />
-      <created>1707072987856</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1707072987856</updated>
     </task>
     <task id="LOCAL-00033" summary="1.1 book_details">
       <option name="closed" value="true" />
@@ -511,7 +479,39 @@
       <option name="project" value="LOCAL" />
       <updated>1707086751660</updated>
     </task>
-    <option name="localTasksCounter" value="78" />
+    <task id="LOCAL-00078" summary="1.1 book_details">
+      <option name="closed" value="true" />
+      <created>1707086857629</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1707086857629</updated>
+    </task>
+    <task id="LOCAL-00079" summary="1.1 book_details">
+      <option name="closed" value="true" />
+      <created>1707086898781</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1707086898781</updated>
+    </task>
+    <task id="LOCAL-00080" summary="1.1 book_details">
+      <option name="closed" value="true" />
+      <created>1707086937322</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1707086937322</updated>
+    </task>
+    <task id="LOCAL-00081" summary="1.1 book_details">
+      <option name="closed" value="true" />
+      <created>1707087015638</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1707087015638</updated>
+    </task>
+    <option name="localTasksCounter" value="82" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
