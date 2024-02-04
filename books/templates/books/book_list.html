@@ -1,10 +1,6 @@
 {% extends 'books/base.html' %}
 
 {% block content %}
-    <div class="about-us">
-        <a href="{% url 'about_us' %}">About Us</a>
-    </div>
-
     {% for book in books %}
         <div class="panel panel-default">
             <div class="panel-heading">
