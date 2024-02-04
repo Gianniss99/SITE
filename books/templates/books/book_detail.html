@@ -14,16 +14,18 @@
             <p><strong>Κατηγορία:</strong> <a href="{% url 'book_list' %}?cat={{ book.category.id }}">{{ book.category.name }}</a></p>
         {% endif %}
         <p><strong>Σελίδες:</strong> {{ book.pages }}</p>
+
+        <!-- Image at the top left -->
         {% if book.cover %}
-            <img src="{{ book.cover.url }}" alt="Εξώφυλλο του βιβλίου {{ book.title }}">
-        {% endif %}
-        <p><strong>Περίληψη:</strong> {{ book.summary }}</p>
-        {% if book.author.biography %}
-            <p><strong>Προφίλ Συγγραφέα:</strong> {{ book.author.biography }}</p>
+            <img src="{{ book.cover.url }}" alt="Εξώφυλλο του βιβλίου {{ book.title }}" class="book-cover">
         {% endif %}
 
         <!-- Return Button -->
         <a href="{% url 'book_list' %}" class="btn btn-primary">Επιστροφή</a>
+
+        <p><strong>Περίληψη:</strong> {{ book.summary }}</p>
+        {% if book.author.biography %}
+            <p><strong>Προφίλ Συγγραφέα:</strong> {{ book.author.biography }}</p>
+        {% endif %}
     </div>
 {% endblock %}
-
