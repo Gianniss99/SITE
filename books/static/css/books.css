@@ -48,8 +48,9 @@ h1, h2, h3, h4 {
 }
 
 .book-detail img {
+    vertical-align: middle; /* Κεντράρει την εικόνα κατακόρυφα */
     float: right;
-    padding-right: 100px;
+    padding-right: middle;
     width: 10px;
     height: 10px;
 }
