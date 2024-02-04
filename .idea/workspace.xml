@@ -4,7 +4,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6af6105f-236d-45dc-8c46-543a847afe1b" name="Changes" comment="A" />
+    <list default="true" id="8c78d5ee-7433-43b8-9da9-1befc9afb78e" name="Changes" comment="1.1 book_details">
+      <change beforePath="$PROJECT_DIR$/.idea/MY_BLOG.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MY_BLOG/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MY_BLOG/asgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MY_BLOG/blog/static/css/blog.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MY_BLOG/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MY_BLOG/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MY_BLOG/wsgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/templates/blog/post_list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,18 +41,18 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
-  <component name="ProjectId" id="2biwBzXyKXP6ViLdXePGfUct1R2" />
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2blMNgdH1y1VWWkcdWkuPLDDZkZ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -38,30 +62,31 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
     "DefaultHtmlFileTemplate": "HTML File",
-    "Django Server.MY_BLOG.executor": "Run",
+    "Django Server.BooksHub.executor": "Run",
     "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RunManager">
-    <configuration name="MY_BLOG" type="Python.DjangoServer" factoryName="Django server">
-      <module name="MY_BLOG" />
+    <configuration name="BooksHub" type="Python.DjangoServer" factoryName="Django server">
+      <module name="BooksHub" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
-        <env name="DJANGO_SETTINGS_MODULE" value="MY_BLOG.settings" />
+        <env name="DJANGO_SETTINGS_MODULE" value="BooksHub.settings" />
       </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
@@ -83,205 +108,179 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-7a29c1521ef0-c986f194a52a-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-233.11799.298" />
+        <option value="bundled-python-sdk-5a2391486177-2887949eec09-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-233.13763.11" />
       </set>
     </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="6af6105f-236d-45dc-8c46-543a847afe1b" name="Changes" comment="" />
-      <created>1706711075872</created>
+      <changelist id="8c78d5ee-7433-43b8-9da9-1befc9afb78e" name="Changes" comment="" />
+      <created>1706785175029</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1706711075872</updated>
-      <workItem from="1706711080444" duration="6188000" />
+      <updated>1706785175029</updated>
+      <workItem from="1706785211079" duration="59452000" />
     </task>
-    <task id="LOCAL-00001" summary="A">
+    <task id="LOCAL-00001" summary="initial version">
       <option name="closed" value="true" />
-      <created>1706711250274</created>
+      <created>1706786399721</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1706711250274</updated>
+      <updated>1706786399721</updated>
     </task>
-    <task id="LOCAL-00002" summary="A">
+    <task id="LOCAL-00002" summary="initial version">
       <option name="closed" value="true" />
-      <created>1706711386170</created>
+      <created>1706786477444</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1706711386170</updated>
+      <updated>1706786477444</updated>
     </task>
-    <task id="LOCAL-00003" summary="A">
+    <task id="LOCAL-00003" summary="0.1 initial version">
       <option name="closed" value="true" />
-      <created>1706711491678</created>
+      <created>1706796416413</created>
       <option name="number" value="00003" />
       <option name="presentableId" value="LOCAL-00003" />
       <option name="project" value="LOCAL" />
-      <updated>1706711491678</updated>
+      <updated>1706796416413</updated>
     </task>
-    <task id="LOCAL-00004" summary="A">
+    <task id="LOCAL-00004" summary="0.2 initial version">
       <option name="closed" value="true" />
-      <created>1706711845905</created>
+      <created>1706797374447</created>
       <option name="number" value="00004" />
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
-      <updated>1706711845905</updated>
+      <updated>1706797374447</updated>
     </task>
-    <task id="LOCAL-00005" summary="A">
+    <task id="LOCAL-00005" summary="0.3 initial version">
       <option name="closed" value="true" />
-      <created>1706711964343</created>
+      <created>1706820323812</created>
       <option name="number" value="00005" />
       <option name="presentableId" value="LOCAL-00005" />
       <option name="project" value="LOCAL" />
-      <updated>1706711964343</updated>
+      <updated>1706820323812</updated>
     </task>
-    <task id="LOCAL-00006" summary="A">
+    <task id="LOCAL-00006" summary="0.4 initial version">
       <option name="closed" value="true" />
-      <created>1706712245417</created>
+      <created>1706826942360</created>
       <option name="number" value="00006" />
       <option name="presentableId" value="LOCAL-00006" />
       <option name="project" value="LOCAL" />
-      <updated>1706712245417</updated>
+      <updated>1706826942360</updated>
     </task>
-    <task id="LOCAL-00007" summary="A">
+    <task id="LOCAL-00007" summary="0.5 initial version">
       <option name="closed" value="true" />
-      <created>1706712291640</created>
+      <created>1706830556730</created>
       <option name="number" value="00007" />
       <option name="presentableId" value="LOCAL-00007" />
       <option name="project" value="LOCAL" />
-      <updated>1706712291640</updated>
+      <updated>1706830556730</updated>
     </task>
-    <task id="LOCAL-00008" summary="A">
+    <task id="LOCAL-00008" summary="0.6 initial version">
       <option name="closed" value="true" />
-      <created>1706712357141</created>
+      <created>1706887059263</created>
       <option name="number" value="00008" />
       <option name="presentableId" value="LOCAL-00008" />
       <option name="project" value="LOCAL" />
-      <updated>1706712357141</updated>
+      <updated>1706887059263</updated>
     </task>
-    <task id="LOCAL-00009" summary="A">
+    <task id="LOCAL-00009" summary="0.7 initial version">
       <option name="closed" value="true" />
-      <created>1706712490843</created>
+      <created>1706897441167</created>
       <option name="number" value="00009" />
       <option name="presentableId" value="LOCAL-00009" />
       <option name="project" value="LOCAL" />
-      <updated>1706712490843</updated>
+      <updated>1706897441167</updated>
     </task>
-    <task id="LOCAL-00010" summary="A">
+    <task id="LOCAL-00010" summary="0.8 Dynamic data, CSS in templates (complete)">
       <option name="closed" value="true" />
-      <created>1706712726637</created>
+      <created>1706900286441</created>
       <option name="number" value="00010" />
       <option name="presentableId" value="LOCAL-00010" />
       <option name="project" value="LOCAL" />
-      <updated>1706712726637</updated>
+      <updated>1706900286441</updated>
     </task>
-    <task id="LOCAL-00011" summary="A">
+    <task id="LOCAL-00011" summary="0.9 Κατηγορίες">
       <option name="closed" value="true" />
-      <created>1706713376159</created>
+      <created>1706961416820</created>
       <option name="number" value="00011" />
       <option name="presentableId" value="LOCAL-00011" />
       <option name="project" value="LOCAL" />
-      <updated>1706713376159</updated>
+      <updated>1706961416820</updated>
     </task>
-    <task id="LOCAL-00012" summary="A">
+    <task id="LOCAL-00012" summary="1 eos kai to proteleutaio mathima">
       <option name="closed" value="true" />
-      <created>1706713942264</created>
+      <created>1706977329669</created>
       <option name="number" value="00012" />
       <option name="presentableId" value="LOCAL-00012" />
       <option name="project" value="LOCAL" />
-      <updated>1706713942264</updated>
+      <updated>1706977329669</updated>
     </task>
-    <task id="LOCAL-00013" summary="A">
+    <task id="LOCAL-00013" summary="1 eos kai to proteleutaio mathima">
       <option name="closed" value="true" />
-      <created>1706715248298</created>
+      <created>1706977346493</created>
       <option name="number" value="00013" />
       <option name="presentableId" value="LOCAL-00013" />
       <option name="project" value="LOCAL" />
-      <updated>1706715248298</updated>
+      <updated>1706977346493</updated>
     </task>
-    <task id="LOCAL-00014" summary="A">
+    <task id="LOCAL-00014" summary="1.1 eos kai to proteleutaio mathima">
       <option name="closed" value="true" />
-      <created>1706715472803</created>
+      <created>1706985673127</created>
       <option name="number" value="00014" />
       <option name="presentableId" value="LOCAL-00014" />
       <option name="project" value="LOCAL" />
-      <updated>1706715472803</updated>
+      <updated>1706985673127</updated>
     </task>
-    <task id="LOCAL-00015" summary="A">
+    <task id="LOCAL-00015" summary="1.1 book_details">
       <option name="closed" value="true" />
-      <created>1706716315948</created>
+      <created>1706990841348</created>
       <option name="number" value="00015" />
       <option name="presentableId" value="LOCAL-00015" />
       <option name="project" value="LOCAL" />
-      <updated>1706716315948</updated>
+      <updated>1706990841348</updated>
     </task>
-    <task id="LOCAL-00016" summary="A">
+    <task id="LOCAL-00016" summary="1.1 book_details">
       <option name="closed" value="true" />
-      <created>1706716388216</created>
+      <created>1706991491458</created>
       <option name="number" value="00016" />
       <option name="presentableId" value="LOCAL-00016" />
       <option name="project" value="LOCAL" />
-      <updated>1706716388216</updated>
+      <updated>1706991491458</updated>
     </task>
-    <task id="LOCAL-00017" summary="A">
-      <option name="closed" value="true" />
-      <created>1706716397515</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1706716397515</updated>
-    </task>
-    <task id="LOCAL-00018" summary="A">
-      <option name="closed" value="true" />
-      <created>1706716433713</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1706716433713</updated>
-    </task>
-    <task id="LOCAL-00019" summary="A">
-      <option name="closed" value="true" />
-      <created>1706716699422</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1706716699422</updated>
-    </task>
-    <task id="LOCAL-00020" summary="A">
-      <option name="closed" value="true" />
-      <created>1706716790813</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1706716790813</updated>
-    </task>
-    <task id="LOCAL-00021" summary="A">
-      <option name="closed" value="true" />
-      <created>1706716883881</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1706716883881</updated>
-    </task>
-    <task id="LOCAL-00022" summary="A">
-      <option name="closed" value="true" />
-      <created>1706717004797</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1706717004797</updated>
-    </task>
-    <option name="localTasksCounter" value="23" />
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="A" />
-    <option name="LAST_COMMIT_MESSAGE" value="A" />
+    <MESSAGE value="initial version" />
+    <MESSAGE value="0.1 initial version" />
+    <MESSAGE value="0.2 initial version" />
+    <MESSAGE value="0.3 initial version" />
+    <MESSAGE value="0.4 initial version" />
+    <MESSAGE value="0.5 initial version" />
+    <MESSAGE value="0.6 initial version" />
+    <MESSAGE value="0.7 initial version" />
+    <MESSAGE value="0.8 Dynamic data, CSS in templates (complete)" />
+    <MESSAGE value="0.9 Κατηγορίες" />
+    <MESSAGE value="1 eos kai to proteleutaio mathima" />
+    <MESSAGE value="1.1 eos kai to proteleutaio mathima" />
+    <MESSAGE value="1.1 book_details" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.1 book_details" />
   </component>
 </project>
