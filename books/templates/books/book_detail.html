@@ -16,9 +16,6 @@
                     <p><strong>Κατηγορία:</strong> <a href="{% url 'book_list' %}?cat={{ book.category.id }}">{{ book.category.name }}</a></p>
                 {% endif %}
                 <p><strong>Σελίδες:</strong> {{ book.pages }}</p>
-
-                <!-- Return Button -->
-                <a href="{% url 'book_list' %}" class="btn btn-primary">Επιστροφή</a>
             </div>
 
             <!-- Image on the right -->
@@ -28,7 +25,8 @@
                 {% endif %}
             </div>
         </div>
-
+        <!-- Return Button -->
+        <a href="{% url 'book_list' %}" class="btn btn-primary">Επιστροφή</a>
         <p><strong>Περίληψη:</strong> {{ book.summary }}</p>
         {% if book.author.biography %}
             <p><strong>Προφίλ Συγγραφέα:</strong> {{ book.author.biography }}</p>
