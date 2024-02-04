@@ -58,14 +58,14 @@ h1, h2, h3, h4 {
     position: relative;
 }
 
-.book-cover {
+.top-section {
     position: absolute;
     top: 0;
-    left: 0;
-    max-width: 200px; /* Ορίστε το επιθυμητό μέγεθος */
-    max-height: 200px; /* Ορίστε το επιθυμητό μέγεθος */
+    right: 0;
+    max-width: 200px;
+    max-height: 200px;
 }
 
 .btn {
-    margin-top: 10px; /* Απόσταση από το κείμενο */
+    margin-top: 10px;
 }

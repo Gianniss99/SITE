@@ -2,6 +2,13 @@
 
 {% block content %}
     <div class="book-detail">
+        <div class="top-section">
+            <!-- Image at the top right -->
+            {% if book.cover %}
+                <img src="{{ book.cover.url }}" alt="Εξώφυλλο του βιβλίου {{ book.title }}" class="book-cover">
+            {% endif %}
+        </div>
+
         <h2>{{ book.title }}</h2>
         {% if book.author %}
             <p><strong>Συγγραφέας:</strong> <a href="{% url 'book_list' %}?auth={{ book.author.id }}">{{ book.author.first_name }} {{ book.author.last_name }}</a></p>
@@ -14,11 +21,6 @@
             <p><strong>Κατηγορία:</strong> <a href="{% url 'book_list' %}?cat={{ book.category.id }}">{{ book.category.name }}</a></p>
         {% endif %}
         <p><strong>Σελίδες:</strong> {{ book.pages }}</p>
-
-        <!-- Image at the top left -->
-        {% if book.cover %}
-            <img src="{{ book.cover.url }}" alt="Εξώφυλλο του βιβλίου {{ book.title }}" class="book-cover">
-        {% endif %}
 
         <!-- Return Button -->
         <a href="{% url 'book_list' %}" class="btn btn-primary">Επιστροφή</a>
