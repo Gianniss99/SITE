@@ -1,5 +1,4 @@
 {% extends 'books/base.html' %}
-{% static 'css/books.css' %}
 
 {% block content %}
     {% for book in books %}
@@ -8,7 +7,7 @@
                 <h2><a href="{% url 'book_detail' pk=book.pk %}">{{ book.title }}</a></h2>
             </div>
             <div class="panel-body">
-                <img src="{{ book.cover.url }}" alt="Εξώφυλλο του βιβλίου {{ book.title }}">
+                <img src="{{ book.cover.url }}" alt="Εξώφυλλο του βιβλίου {{ book.title }}" class="square-image">>
                 <p>Συγγραφέας: {{ book.author.first_name }} {{ book.author.last_name }}</a></p>
                 <p>Εκδόσεις: {{ book.publisher.name }}</a></p>
             </div>
