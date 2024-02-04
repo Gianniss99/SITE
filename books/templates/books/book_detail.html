@@ -2,8 +2,8 @@
 
 {% block content %}
     <div class="book-detail">
-        <!-- Image at the top left -->
         <div class="top-section">
+            <!-- Image at the top right -->
             {% if book.cover %}
                 <img src="{{ book.cover.url }}" alt="Εξώφυλλο του βιβλίου {{ book.title }}" class="book-cover">
             {% endif %}
@@ -26,10 +26,7 @@
         {% if book.author.biography %}
             <p><strong>Προφίλ Συγγραφέα:</strong> {{ book.author.biography }}</p>
         {% endif %}
-
-        <!-- Return Button at the bottom -->
-        <div class="bottom-section">
-            <a href="{% url 'book_list' %}" class="btn btn-primary">Επιστροφή</a>
-        </div>
+        <!-- Return Button -->
+        <a href="{% url 'book_list' %}" class="btn btn-primary">Επιστροφή</a>
     </div>
 {% endblock %}
