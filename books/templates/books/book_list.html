@@ -7,13 +7,19 @@
                 <div class="panel-heading">
                     <h2><a href="{% url 'book_detail' pk=book.pk %}">{{ book.title }}</a></h2>
                 </div>
-                <div class="panel-body square-image-container">
-                    <div class="image-overlay"></div>
-                    <img src="{{ book.cover.url }}" alt="Εξώφυλλο του βιβλίου {{ book.title }}" class="square-image">
+                <div class="panel-body">
+                    <div class="image-container">
+                         <img src="{{ book.cover.url }}" alt="Εξώφυλλο του βιβλίου {{ book.title }}" class="square-image">
+                        <div class="image-overlay"></div>
+                    </div>
+                    <p>Συγγραφέας: {{ book.author.first_name }} {{ book.author.last_name }}</p>
+                    <p>Εκδόσεις: {{ book.publisher.name }}</p>
                 </div>
-                 <p>Συγγραφέας: {{ book.author.first_name }} {{ book.author.last_name }}</p>
-                <p>Εκδόσεις: {{ book.publisher.name }}</p>
             </div>
         {% endfor %}
     </div>
 {% endblock content %}
+
+
+
+
