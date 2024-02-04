@@ -1,12 +1,6 @@
 from django.shortcuts import render, get_object_or_404
 from .models import Book
 from datetime import datetime
-from django.shortcuts import render
-from django.views import View
-
-class AboutUsView(View):
-    def get(self, request, *args, **kwargs):
-        return render(request, 'books/about_us.html')
 
 def book_list(request):
     current_year = datetime.now().year
