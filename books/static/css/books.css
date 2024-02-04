@@ -29,9 +29,8 @@ h1, h2, h3, h4 {
 }
 
 .square-image {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+    width: 230px;
+    height: 230px;
 }
 
 .panel-heading h2 a, .panel-heading h2 a:visited {
