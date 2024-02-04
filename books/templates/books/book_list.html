@@ -13,12 +13,9 @@
             {% if book.publisher %}
                 <p>Εκδόσεις: <a href="{% url 'book_list' %}?pub={{ book.publisher.id }}">{{ book.publisher.name }}</a></p>
             {% endif %}
-            <p>Έτος Έκδοσης: {{ book.publish_year }}</p>
-            {% if book.category %}
-                <p>Κατηγορία: <a href="{% url 'book_list' %}?cat={{ book.category.id }}">{{ book.category.name }}</a></p>
-            {% endif %}
-            <p>Σελίδες: {{ book.pages }}</p>
-            <p>{{ book.summary|linebreaksbr }}</p>
+            {% if book.cover %}
+            <img src="{{ book.cover.url }}" alt="Εξώφυλλο του βιβλίου {{ book.title }}">
+        {% endif %}
         </div>
     </div>
     {% empty %}

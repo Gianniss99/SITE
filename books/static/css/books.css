@@ -49,8 +49,8 @@ h1, h2, h3, h4 {
 .book-detail img {
     float: left;
     padding-right: 6px;
-    max-width: 200px;
-    height: auto;
+    max-width: 20px;
+    height: 20px;
 }
 
 .book-detail p {
