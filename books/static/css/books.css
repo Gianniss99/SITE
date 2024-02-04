@@ -107,12 +107,12 @@ h1, h2, h3, h4 {
 .book-list {
     display: flex;
     flex-wrap: wrap;
-    justify-content: 20px;
+    justify-content: 100px;
 }
 
 .book-panel {
     width: 30%;
-    margin-bottom: 20px;
+    margin-bottom: 100px;
 }
 
 
