@@ -7,11 +7,9 @@
             <h2><a href="{% url 'book_detail' pk=book.pk %}">{{ book.title }}</a></h2>
         </div>
         <div class="panel-body">
-            {% if book.cover %}
-                <img src="{{ book.cover.url }}" alt="Εξώφυλλο του βιβλίου {{ book.title }}">
-            {% endif %}
-                <p>Συγγραφέας: {{ book.author.first_name }} {{ book.author.last_name }}</a></p>
-                <p>Εκδόσεις: {{ book.publisher.name }}</a></p>
+            <img src="{{ book.cover.url }}" alt="Εξώφυλλο του βιβλίου {{ book.title }}">
+            <p>Συγγραφέας: {{ book.author.first_name }} {{ book.author.last_name }}</a></p>
+            <p>Εκδόσεις: {{ book.publisher.name }}</a></p>
         </div>
     </div>
     {% empty %}
