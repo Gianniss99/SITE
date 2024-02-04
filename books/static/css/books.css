@@ -54,29 +54,27 @@ h1, h2, h3, h4 {
     height: 300px;
 }
 
-.top-section {
-    position: absolute;
-    top: 0;
-    left: 0;
+.book-detail {
+    max-width: 800px; /* Αυξήστε ή μειώστε το πλάτος ανάλογα με τις ανάγκες σας */
+    margin: 0 auto; /* Κεντράρει το πλαίσιο στην οριζόντια επιφάνεια */
+}
+
+.flex-container {
+    display: flex;
+}
+
+.text-section {
+    flex-grow: 1; /* Οι ενότητες κειμένου να μεγαλώνουν για να πάρουν το διαθέσιμο χώρο */
+}
+
+.book-cover {
     max-width: 200px;
     max-height: 200px;
+    margin-left: 20px; /* Απόσταση μεταξύ της εικόνας και του κειμένου */
 }
 
 .btn {
     margin-top: 10px;
 }
 
-.book-detail {
-    overflow: hidden;
-}
 
-.book-cover {
-    float: right;
-    margin: 10px 0 10px 10px;
-    max-width: 200px;
-    max-height: 200px;
-}
-
-.text-section {
-    overflow: hidden; /* Εξασφαλίζει ότι το text-section θα καλύπτει το ύψος της εικόνας */
-}
