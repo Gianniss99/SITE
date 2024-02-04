@@ -102,17 +102,19 @@ h1, h2, h3, h4 {
     box-sizing: top;
 }
 
-/* Στο αρχείο books.css */
-
 .book-list {
     display: flex;
     flex-wrap: wrap;
-    justify-content: 100px;
+    justify-content: space-between;
 }
 
 .book-panel {
-    width: 33%;
-    margin-bottom: 70px;
+    width: 30%;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
 }
 
-
+.panel-body {
+    flex-grow: 10;
+}
