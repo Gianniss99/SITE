@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8c78d5ee-7433-43b8-9da9-1befc9afb78e" name="Changes" comment="1.1 book_details">
-      <change beforePath="$PROJECT_DIR$/books/static/css/books.css" beforeDir="false" afterPath="$PROJECT_DIR$/books/static/css/books.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/books/templates/books/about_us.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/books/templates/books/book_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/books/templates/books/book_list.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,14 +117,6 @@
       <option name="presentableId" value="Default" />
       <updated>1706785175029</updated>
       <workItem from="1706785211079" duration="59452000" />
-    </task>
-    <task id="LOCAL-00003" summary="0.1 initial version">
-      <option name="closed" value="true" />
-      <created>1706796416413</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1706796416413</updated>
     </task>
     <task id="LOCAL-00004" summary="0.2 initial version">
       <option name="closed" value="true" />
@@ -511,7 +502,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707083306187</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="1.1 book_details">
+      <option name="closed" value="true" />
+      <created>1707083826241</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1707083826241</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
