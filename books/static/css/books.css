@@ -1,59 +1,31 @@
-body {
-  padding-left: 15px;
-  font-family: 'Roboto', sans-serif;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 20px;
-}
+{% extends 'books/base.html' %}
 
-.page-header {
-    background-color: #6C3643;
-    margin-top: 0;
-    padding: 30px 30px 40px 40px;
-}
+{% block content %}
+    <div class="book-detail">
+        <h2>{{ book.title }}</h2>
+        {% if book.author %}
+            <p><strong>Συγγραφέας:</strong> <a href="{% url 'book_list' %}?auth={{ book.author.id }}">{{ book.author.first_name }} {{ book.author.last_name }}</a></p>
+        {% endif %}
+        {% if book.publisher %}
+            <p><strong>Εκδόσεις:</strong> <a href="{% url 'book_list' %}?pub={{ book.publisher.id }}">{{ book.publisher.name }}</a></p>
+        {% endif %}
+        <p><strong>Έτος Έκδοσης:</strong> {{ book.publish_year }}</p>
+        {% if book.category %}
+            <p><strong>Κατηγορία:</strong> <a href="{% url 'book_list' %}?cat={{ book.category.id }}">{{ book.category.name }}</a></p>
+        {% endif %}
+        <p><strong>Σελίδες:</strong> {{ book.pages }}</p>
 
-.page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
-    color: #ffffff;
-    font-size: 36pt;
-    text-decoration: none;
-}
+        <!-- Image at the top left -->
+        {% if book.cover %}
+            <img src="{{ book.cover.url }}" alt="Εξώφυλλο του βιβλίου {{ book.title }}" class="book-cover">
+        {% endif %}
 
-/* Εφαρμογή του font-family Roboto σε όλους τους τίτλους */
-h1, h2, h3, h4 {
-    font-family: 'Roboto', sans-serif;
-}
+        <!-- Return Button -->
+        <a href="{% url 'book_list' %}" class="btn btn-primary">Επιστροφή</a>
 
-/* Ρυθμίσεις για την κλάση panel που χρησιμοποιείτε στην εμφάνιση κάθε βιβλίου */
-.panel {
-    margin-bottom: 70px;
-}
-
-.panel-heading h2 a, .panel-heading h2 a:visited {
-    color: #000000; /* Εξασφαλίζει ότι οι σύνδεσμοι μέσα στον τίτλο είναι μαύροι */
-}
-
-/* Εφαρμογή των ρυθμίσεων στο κύριο σώμα της σελίδας για να αντικαταστήσει την κλάση .content */
-.container {
-    margin-left: 40px;
-}
-
-/* Ρύθμιση για την εμφάνιση των ημερομηνιών, αν και δεν υπάρχει στο παραδοτέο HTML */
-.date {
-    color: #747373;
-}
-
-.panel-body {
-    color: #000000;
-    text-align: justify;
-}
-
-.book-detail img {
-    vertical-align: top; /* Κεντράρει την εικόνα κατακόρυφα */
-    float: right;
-    width: 300px;
-    height: 300px;
-}
-
-.book-detail p {
-    text-align: justify;
-}
+        <p><strong>Περίληψη:</strong> {{ book.summary }}</p>
+        {% if book.author.biography %}
+            <p><strong>Προφίλ Συγγραφέα:</strong> {{ book.author.biography }}</p>
+        {% endif %}
+    </div>
+{% endblock %}
