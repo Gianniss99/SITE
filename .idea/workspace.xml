@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8c78d5ee-7433-43b8-9da9-1befc9afb78e" name="Changes" comment="1.1 book_details">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/books/templates/books/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/books/templates/books/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/books/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/books/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/books/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/books/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/books/static/css/books.css" beforeDir="false" afterPath="$PROJECT_DIR$/books/static/css/books.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/books/templates/books/about_us.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,12 +43,12 @@
   "keyToString": {
     "DefaultHtmlFileTemplate": "HTML File",
     "Django Server.BooksHub.executor": "Run",
-    "JavaScript Debug.base.html.executor": "Debug",
+    "JavaScript Debug.base.html.executor": "Run",
     "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "F:/Metaptixiako/Pycharm_Projects/GIANNIS",
+    "last_opened_file_path": "C:/Users/Giannis/Desktop/New folder (3)",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -69,7 +67,7 @@
       <recent name="F:\Metaptixiako\Pycharm_Projects\MY_BLOG\media\book_covers" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.base.html">
+  <component name="RunManager" selected="Django Server.BooksHub">
     <configuration name="base.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/MY_BLOG/books/templates/books/base.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -120,14 +118,6 @@
       <option name="presentableId" value="Default" />
       <updated>1706785175029</updated>
       <workItem from="1706785211079" duration="59452000" />
-    </task>
-    <task id="LOCAL-00002" summary="initial version">
-      <option name="closed" value="true" />
-      <created>1706786477444</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1706786477444</updated>
     </task>
     <task id="LOCAL-00003" summary="0.1 initial version">
       <option name="closed" value="true" />
@@ -513,7 +503,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707082419891</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="1.1 book_details">
+      <option name="closed" value="true" />
+      <created>1707083306187</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1707083306187</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
