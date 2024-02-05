@@ -32,6 +32,10 @@ h1, h2, h3, h4 {
     color: #000000; /* Εξασφαλίζει ότι οι σύνδεσμοι μέσα στον τίτλο είναι μαύροι */
 }
 
+.panel-heading {
+    min-height: 70px; /* Ελάχιστο ύψος για την επικεφαλίδα (αν χρειαστεί προσαρμογή) */
+}
+
 /* Εφαρμογή των ρυθμίσεων στο κύριο σώμα της σελίδας για να αντικαταστήσει την κλάση .content */
 .container {
     margin-left: 40px;
@@ -97,7 +101,7 @@ h1, h2, h3, h4 {
 .book-list {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: flex-start; /* Αρχικός ευθυγράμμιση προς τα αριστερά */
 }
 
 .book-panel {
