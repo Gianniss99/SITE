@@ -87,7 +87,7 @@ h1, h2, h3, h4 {
     position: relative;
     overflow: hidden;
     width: 100%;
-    height: 100%;
+    height: 200px; /* Σταθερό ύψος για όλες τις εικόνες (αν χρειαστεί προσαρμογή) */
     border: 3px solid #000;
     box-sizing: border-box;
 }
@@ -95,7 +95,6 @@ h1, h2, h3, h4 {
 .square-image {
     width: 100%;
     height: 100%;
-    object-fit: cover; /* Εξασφαλίζει ότι η εικόνα καλύπτει πλήρως τον χώρο του περιγράμματος */
 }
 
 .book-list {
