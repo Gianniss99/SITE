@@ -32,10 +32,6 @@ h1, h2, h3, h4 {
     color: #000000; /* Εξασφαλίζει ότι οι σύνδεσμοι μέσα στον τίτλο είναι μαύροι */
 }
 
-.panel-heading {
-    min-height: 70px; /* Ελάχιστο ύψος για την επικεφαλίδα (αν χρειαστεί προσαρμογή) */
-}
-
 /* Εφαρμογή των ρυθμίσεων στο κύριο σώμα της σελίδας για να αντικαταστήσει την κλάση .content */
 .container {
     margin-left: 40px;
@@ -87,7 +83,7 @@ h1, h2, h3, h4 {
     position: relative;
     overflow: hidden;
     width: 100%;
-    height: 200px; /* Σταθερό ύψος για όλες τις εικόνες (αν χρειαστεί προσαρμογή) */
+    height: 100%;
     border: 3px solid #000;
     box-sizing: border-box;
 }
@@ -95,6 +91,7 @@ h1, h2, h3, h4 {
 .square-image {
     width: 100%;
     height: 100%;
+    object-fit: cover; /* Εξασφαλίζει ότι η εικόνα καλύπτει πλήρως τον χώρο του περιγράμματος */
 }
 
 .book-list {
@@ -108,6 +105,12 @@ h1, h2, h3, h4 {
     margin-bottom: 20px;
     display: flex;
     flex-direction: column;
+}
+
+.panel-heading {
+    min-height: 70px; /* Σταθερό ύψος για τον τίτλο */
+    display: flex;
+    align-items: center; /* Κεντράρει το περιεχόμενο του panel-heading κατακόρυφα */
 }
 
 .panel-body {
