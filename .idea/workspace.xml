@@ -118,23 +118,7 @@
       <option name="presentableId" value="Default" />
       <updated>1706785175029</updated>
       <workItem from="1706785211079" duration="59452000" />
-      <workItem from="1707149740493" duration="6401000" />
-    </task>
-    <task id="LOCAL-00053" summary="1.1 book_details">
-      <option name="closed" value="true" />
-      <created>1707083937860</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1707083937860</updated>
-    </task>
-    <task id="LOCAL-00054" summary="1.1 book_details">
-      <option name="closed" value="true" />
-      <created>1707084126438</created>
-      <option name="number" value="00054" />
-      <option name="presentableId" value="LOCAL-00054" />
-      <option name="project" value="LOCAL" />
-      <updated>1707084126438</updated>
+      <workItem from="1707149740493" duration="6726000" />
     </task>
     <task id="LOCAL-00055" summary="1.1 book_details">
       <option name="closed" value="true" />
@@ -512,7 +496,23 @@
       <option name="project" value="LOCAL" />
       <updated>1707160426844</updated>
     </task>
-    <option name="localTasksCounter" value="102" />
+    <task id="LOCAL-00102" summary="1.1 book_details">
+      <option name="closed" value="true" />
+      <created>1707160837758</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1707160837758</updated>
+    </task>
+    <task id="LOCAL-00103" summary="1.1 book_details">
+      <option name="closed" value="true" />
+      <created>1707160989951</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1707160989951</updated>
+    </task>
+    <option name="localTasksCounter" value="104" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

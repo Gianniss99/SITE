@@ -25,15 +25,15 @@ h1, h2, h3, h4 {
 
 /* Ρυθμίσεις για την κλάση panel που χρησιμοποιείτε στην εμφάνιση κάθε βιβλίου */
 .panel {
-    margin-bottom: 70px;
+    margin-bottom: 50px;
 }
 
 .panel-heading h2 a, .panel-heading h2 a:visited {
     color: #000000; /* Εξασφαλίζει ότι οι σύνδεσμοι μέσα στον τίτλο είναι μαύροι */
     overflow: hidden; /* Κρύβει το περιεχόμενο πέραν του σταθερού μήκους */
     text-overflow: ellipsis; /* Εμφανίζει τριάδες στο τέλος του τίτλου */
-    white-space: nowrap;
-    flex-shrink: 0;
+    white-space: wrap;
+    flex-shrink: 1;
 }
 
 /* Εφαρμογή των ρυθμίσεων στο κύριο σώμα της σελίδας για να αντικαταστήσει την κλάση .content */
