@@ -113,9 +113,10 @@ h1, h2, h3, h4 {
 }
 
 .panel-heading {
-    min-height: 20px; /* Σταθερό ύψος για τον τίτλο */
+    min-height: 50px; /* Σταθερό ύψος για τον τίτλο */
     display: flex;
     align-items: center; /* Κεντράρει το περιεχόμενο του panel-heading κατακόρυφα */
+     flex-wrap: wrap;
 }
 
 .panel-body {
