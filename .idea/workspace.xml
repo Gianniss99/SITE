@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c78d5ee-7433-43b8-9da9-1befc9afb78e" name="Changes" comment="1.1 book_details">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/books/static/css/books.css" beforeDir="false" afterPath="$PROJECT_DIR$/books/static/css/books.css" afterDir="false" />
-    </list>
+    <list default="true" id="8c78d5ee-7433-43b8-9da9-1befc9afb78e" name="Changes" comment="1.1 book_details" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -119,23 +116,7 @@
       <option name="presentableId" value="Default" />
       <updated>1706785175029</updated>
       <workItem from="1706785211079" duration="59452000" />
-      <workItem from="1707149740493" duration="4964000" />
-    </task>
-    <task id="LOCAL-00048" summary="1.1 book_details">
-      <option name="closed" value="true" />
-      <created>1707082071914</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1707082071914</updated>
-    </task>
-    <task id="LOCAL-00049" summary="1.1 book_details">
-      <option name="closed" value="true" />
-      <created>1707082386912</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1707082386912</updated>
+      <workItem from="1707149740493" duration="5425000" />
     </task>
     <task id="LOCAL-00050" summary="1.1 book_details">
       <option name="closed" value="true" />
@@ -513,7 +494,23 @@
       <option name="project" value="LOCAL" />
       <updated>1707159031184</updated>
     </task>
-    <option name="localTasksCounter" value="97" />
+    <task id="LOCAL-00097" summary="1.1 book_details">
+      <option name="closed" value="true" />
+      <created>1707159333278</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1707159333278</updated>
+    </task>
+    <task id="LOCAL-00098" summary="1.1 book_details">
+      <option name="closed" value="true" />
+      <created>1707159537226</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1707159537226</updated>
+    </task>
+    <option name="localTasksCounter" value="99" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -79,33 +79,8 @@ h1, h2, h3, h4 {
     margin-top: 10px;
 }
 
-.image-container {
-    position: absolute;
-    overflow: hidden;
-    width: 100%;
-    top: 50px;
-    height: calc(100% - 70px);
-    border: 3px solid #000;
-    box-sizing: border-box;
-}
-
-.square-image {
-    width: 100%;
-    height: 100%;
-    object-fit: cover; /* Εξασφαλίζει ότι η εικόνα καλύπτει πλήρως τον χώρο του περιγράμματος */
-}
-
-.book-list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start; /* Αρχικός ευθυγράμμιση προς τα αριστερά */
-}
-
 .book-panel {
-    width: 30%;
-    margin-bottom: 20px;
-    display: flex;
-    flex-direction: column;
+    position: relative;
 }
 
 .panel-heading {
@@ -116,4 +91,20 @@ h1, h2, h3, h4 {
 
 .panel-body {
     flex-grow: 1; /* Το κείμενο να καταλαμβάνει το διαθέσιμο κενό */
+}
+
+.image-container {
+    position: absolute;
+    top: 70px; /* Απόσταση από την κορυφή ίση με το ύψος του τίτλου */
+    overflow: hidden;
+    width: 100%;
+    height: calc(100% - 70px); /* Το ύψος είναι το συνολικό ύψος αφαιρώντας το ύψος του τίτλου */
+    border: 3px solid #000;
+    box-sizing: border-box;
+}
+
+.square-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Εξασφαλίζει ότι η εικόνα καλύπτει πλήρως τον χώρο του περιγράμματος */
 }
