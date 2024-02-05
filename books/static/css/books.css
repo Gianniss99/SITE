@@ -79,20 +79,20 @@ h1, h2, h3, h4 {
     margin-top: 10px;
 }
 
-.square-image-container {
+.image-container {
     position: relative;
     overflow: hidden;
-    width: 120%; /* Ή το επιθυμητό ποσοστό του πλάτους */
-    height: 120%; /* Ή το επιθυμητό ποσοστό του ύψους */
-    border: 3px solid #000; /* Χρώμα περιγράμματος */
-    box-sizing: border-box; /* Το box-sizing προσθέτει το πάχος των περιγραμμάτων στο συνολικό πλάτος/ύψος του στοιχείου */
+    width: 100%;
+    height: 100%;
+    border: 3px solid #000;
+    box-sizing: border-box;
 }
 
 .square-image {
     width: 100%;
     height: 100%;
+    object-fit: cover; /* Εξασφαλίζει ότι η εικόνα καλύπτει πλήρως τον χώρο του περιγράμματος */
 }
-
 
 .book-list {
     display: flex;
