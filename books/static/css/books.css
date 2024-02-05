@@ -30,6 +30,9 @@ h1, h2, h3, h4 {
 
 .panel-heading h2 a, .panel-heading h2 a:visited {
     color: #000000; /* Εξασφαλίζει ότι οι σύνδεσμοι μέσα στον τίτλο είναι μαύροι */
+    white-space: nowrap; /* Αποτρέπει την αναδίπλωση του κειμένου */
+    overflow: hidden; /* Κρύβει το περιεχόμενο πέραν του σταθερού μήκους */
+    text-overflow: ellipsis; /* Εμφανίζει τριάδες στο τέλος του τίτλου */
 }
 
 /* Εφαρμογή των ρυθμίσεων στο κύριο σώμα της σελίδας για να αντικαταστήσει την κλάση .content */
@@ -102,14 +105,14 @@ h1, h2, h3, h4 {
 }
 
 .book-panel {
-    width: 30%;
+    width: 33.33%;
     margin-bottom: 20px;
     display: flex;
     flex-direction: column;
 }
 
 .panel-heading {
-    min-height: 40px; /* Σταθερό ύψος για τον τίτλο */
+    min-height: 20px; /* Σταθερό ύψος για τον τίτλο */
     display: flex;
     align-items: center; /* Κεντράρει το περιεχόμενο του panel-heading κατακόρυφα */
 }
