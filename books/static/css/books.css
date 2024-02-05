@@ -54,8 +54,8 @@ h1, h2, h3, h4 {
 .book-detail img {
     vertical-align: middle; /* Κεντράρει την εικόνα κατακόρυφα */
     float: left;
-    width: 300px;
-    height: 300px;
+    width: 100px;
+    height: 100px;
 }
 
 .book-detail {
@@ -72,12 +72,12 @@ h1, h2, h3, h4 {
 }
 
 .book-cover {
-    max-width: 200px;
-    max-height: 200px;
-    margin-left: 20px; /* Απόσταση μεταξύ της εικόνας και του κειμένου */
-    border: 3px solid #000; /* Περίγραμμα γύρω από την εικόνα */
+    max-width: 90px;
+    max-height: 90px;
+    margin-left: 2px; /* Απόσταση μεταξύ της εικόνας και του κειμένου */
+    border: 5px solid #000; /* Περίγραμμα γύρω από την εικόνα */
     box-sizing: border-box; /* Το box-sizing προσθέτει το πάχος του περιγράμματος στο συνολικό πλάτος του στοιχείου */
-    min-height: 100px; /* Σταθερό ύψος για την εικόνα */
+    min-height: 120px; /* Σταθερό ύψος για την εικόνα */
 }
 
 .btn {
@@ -88,8 +88,8 @@ h1, h2, h3, h4 {
     position: relative;
     overflow: hidden;
     width: 100%;
-    top: 50px;
-    height: calc(100% - 70px);
+    top: 20px;
+    height: 100%;
     border: 3px solid #000;
     box-sizing: border-box;
 }
@@ -122,4 +122,5 @@ h1, h2, h3, h4 {
 
 .panel-body {
     flex-grow: 1; /* Το κείμενο να καταλαμβάνει το διαθέσιμο κενό */
+    flex: 1 1 0; /* Κατανομή ομοιόμορφου χώρου στο εσωτερικό του .book-panel */
 }
