@@ -79,10 +79,11 @@ h1, h2, h3, h4 {
     margin-top: 10px;
 }
 
-.image-container {
+.square-image-container {
     position: relative;
-    width: 70%;
-    height: 70%;
+    overflow: hidden;
+    width: 120%; /* Ή το επιθυμητό ποσοστό του πλάτους */
+    height: 120%; /* Ή το επιθυμητό ποσοστό του ύψους */
     border: 3px solid #000; /* Χρώμα περιγράμματος */
     box-sizing: border-box; /* Το box-sizing προσθέτει το πάχος των περιγραμμάτων στο συνολικό πλάτος/ύψος του στοιχείου */
 }
