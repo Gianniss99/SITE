@@ -82,12 +82,15 @@ h1, h2, h3, h4 {
     overflow: hidden;
     width: 70%;
     height: 70%;
+    border: 3px solid #000; /* Χρώμα περιγράμματος */
+    box-sizing: border-box; /* Το box-sizing προσθέτει το πάχος των περιγραμμάτων στο συνολικό πλάτος/ύψος του στοιχείου */
 }
 
 .square-image {
-    width: 70%;
-    height: 70%;
+    width: 100%;
+    height: 100%;
 }
+
 
 .book-list {
     display: flex;
