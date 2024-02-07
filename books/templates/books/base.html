@@ -18,6 +18,25 @@
     {% block content %}
     {% endblock %}
 </div>
+<style>
+        /* Προσαρμογή στυλ για τον σύνδεσμο "About Us" στην κάτω δεξιά γωνία */
+        #about-us-link {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            font-size: 24px; /* Αυξήστε το μέγεθος των γραμμάτων */
+            font-weight: bold;
+            text-decoration: none;
+            color: #ffffff; /* Χρώμα κειμένου */
+            background-color: #007bff; /* Χρώμα φόντου */
+            padding: 15px 30px; /* Αυξήστε το περιθώριο του κουμπιού */
+            border-radius: 8px; /* Αυξήστε την κυκλικότητα των άκρων */
+        }
+
+        #about-us-link:hover {
+            background-color: #0056b3; /* Χρώμα φόντου κατά το hover */
+        }
+</style>
 <a id="about-us-link" href="{% url 'about_us' %}">About Us</a>
 </body>
 </html>
