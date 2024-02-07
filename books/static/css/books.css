@@ -154,15 +154,17 @@ h1, h2, h3, h4 {
     font-weight: bold; /* Έντονα γράμματα */
     margin-top: 20px; /* Απόσταση πάνω από την υπογραφή */
     text-align: right;
+    margin-bottom: 5px; /* Απόσταση κάτω από το έντονο όνομα */
 }
 
 /* Στυλ για το κείμενο υπογραφής της ομάδας ανάπτυξης */
 .about-us p.team-names {
     font-style: italic; /* Πλάγια γράμματα */
+    margin-top: 14px; /* Απόσταση πάνω από τα ονόματα της ομάδας */
     font-weight: bold; /* Έντονα γράμματα */
     text-align: right;
 }
 .about-us p.team-names strong {
     font-weight: bold; /* Έντονα γράμματα */
-    display: block; /* Κάθε όνομα σε νέα γραμμή */
+    margin-bottom: 5px; /* Απόσταση κάτω από το έντονο όνομα */
 }
