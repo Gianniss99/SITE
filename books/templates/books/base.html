@@ -39,9 +39,9 @@
 </style>
 {% block content %}
     <!-- Εάν ο χρήστης δεν βρίσκεται στη σελίδα "About Us", τότε εμφανίστε τον σύνδεσμο "About Us" -->
-    {% if request.path != 'books/about_us/' %}
+    {% if request.path != 'about_us' %}
         <!-- Προσθήκη συνδέσμου για τη σελίδα "About Us" με προσαρμοσμένο στυλ -->
-        <a id="about-us-link" href="{% url 'books/about_us' %}">About Us</a>
+        <a id="about-us-link" href="{% url 'about_us' %}">About Us</a>
     {% endif %}
 {% endblock content %}
 </body>
