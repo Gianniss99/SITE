@@ -163,11 +163,8 @@ h1, h2, h3, h4 {
     font-weight: bold; /* Έντονα γράμματα */
     text-align: right;
 }
-.about-us p.team-names .first-name {
-    margin-top: 5px; /* Απόσταση ανάμεσα στα δύο ονόματα */
-}
-
-/* Στυλ για το δεύτερο όνομα */
-.about-us p.team-names .second-name {
-    margin-top: 5px; /* Απόσταση ανάμεσα στα δύο ονόματα */
+.about-us p.team-names strong {
+    font-weight: bold; /* Έντονα γράμματα */
+    display: block; /* Κάθε όνομα σε νέα γραμμή */
+    margin-bottom: 5px; /* Απόσταση κάτω από το έντονο όνομα */
 }
