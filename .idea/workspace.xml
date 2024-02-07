@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c78d5ee-7433-43b8-9da9-1befc9afb78e" name="Changes" comment="1.1 book_details">
-      <change beforePath="$PROJECT_DIR$/books/templates/books/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/books/templates/books/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/books/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/books/urls.py" afterDir="false" />
-    </list>
+    <list default="true" id="8c78d5ee-7433-43b8-9da9-1befc9afb78e" name="Changes" comment="1.1 book_details" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -138,23 +135,7 @@
       <updated>1706785175029</updated>
       <workItem from="1706785211079" duration="59452000" />
       <workItem from="1707149740493" duration="11166000" />
-      <workItem from="1707316087226" duration="9469000" />
-    </task>
-    <task id="LOCAL-00080" summary="1.1 book_details">
-      <option name="closed" value="true" />
-      <created>1707086937322</created>
-      <option name="number" value="00080" />
-      <option name="presentableId" value="LOCAL-00080" />
-      <option name="project" value="LOCAL" />
-      <updated>1707086937322</updated>
-    </task>
-    <task id="LOCAL-00081" summary="1.1 book_details">
-      <option name="closed" value="true" />
-      <created>1707087015638</created>
-      <option name="number" value="00081" />
-      <option name="presentableId" value="LOCAL-00081" />
-      <option name="project" value="LOCAL" />
-      <updated>1707087015638</updated>
+      <workItem from="1707316087226" duration="9810000" />
     </task>
     <task id="LOCAL-00082" summary="1.1 book_details">
       <option name="closed" value="true" />
@@ -532,7 +513,23 @@
       <option name="project" value="LOCAL" />
       <updated>1707330999990</updated>
     </task>
-    <option name="localTasksCounter" value="129" />
+    <task id="LOCAL-00129" summary="1.1 book_details">
+      <option name="closed" value="true" />
+      <created>1707331333271</created>
+      <option name="number" value="00129" />
+      <option name="presentableId" value="LOCAL-00129" />
+      <option name="project" value="LOCAL" />
+      <updated>1707331333271</updated>
+    </task>
+    <task id="LOCAL-00130" summary="1.1 book_details">
+      <option name="closed" value="true" />
+      <created>1707331335974</created>
+      <option name="number" value="00130" />
+      <option name="presentableId" value="LOCAL-00130" />
+      <option name="project" value="LOCAL" />
+      <updated>1707331335974</updated>
+    </task>
+    <option name="localTasksCounter" value="131" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
