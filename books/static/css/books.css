@@ -166,5 +166,4 @@ h1, h2, h3, h4 {
 .about-us p.team-names strong {
     font-weight: bold; /* Έντονα γράμματα */
     display: block; /* Κάθε όνομα σε νέα γραμμή */
-    margin-bottom: 5px; /* Απόσταση κάτω από το έντονο όνομα */
 }
