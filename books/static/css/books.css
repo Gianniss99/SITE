@@ -140,15 +140,16 @@ h1, h2, h3, h4 {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    font-size: 18px;
+    font-size: 24px; /* Αυξήστε το μέγεθος των γραμμάτων */
     font-weight: bold;
     text-decoration: none;
     color: #ffffff; /* Χρώμα κειμένου */
     background-color: #007bff; /* Χρώμα φόντου */
-    padding: 10px 20px;
-    border-radius: 5px;
+    padding: 15px 30px; /* Αυξήστε το περιθώριο του κουμπιού */
+    border-radius: 8px; /* Αυξήστε την κυκλικότητα των άκρων */
 }
 
 #about-us-link:hover {
     background-color: #0056b3; /* Χρώμα φόντου κατά το hover */
 }
+
