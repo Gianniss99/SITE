@@ -114,7 +114,7 @@ h1, h2, h3, h4 {
 }
 
 .panel-heading {
-    min-height: 120px; /* Σταθερό ύψος για τον τίτλο */
+    min-height: 200px; /* Σταθερό ύψος για τον τίτλο */
     display: flex;
     align-items: center; /* Κεντράρει το περιεχόμενο του panel-heading κατακόρυφα */
     flex-wrap: wrap;
@@ -122,4 +122,15 @@ h1, h2, h3, h4 {
 
 .panel-body {
     flex-grow: 1; /* Το κείμενο να καταλαμβάνει το διαθέσιμο κενό */
+}
+
+.author-publisher-info {
+    margin-top: 10px; /* Απόσταση από την εικόνα προς τα κάτω */
+    font-size: 14px; /* Μέγεθος γραμματοσειράς */
+    color: #666; /* Χρώμα κειμένου */
+    text-align: center; /* Κείμενο να είναι στο κέντρο */
+}
+
+.author-publisher-info span {
+    display: block; /* Κάθε στοιχείο span να βρίσκεται σε νέα γραμμή */
 }

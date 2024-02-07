@@ -12,8 +12,10 @@
                         <img src="{{ book.cover.url }}" alt="Εξώφυλλο του βιβλίου {{ book.title }}" class="square-image">
                     </div>
                 </div>
-                <p>Συγγραφέας: {{ book.author.first_name }} {{ book.author.last_name }}</p>
-                <p>Εκδόσεις: {{ book.publisher.name }}</p>
+                <p class="author-publisher-info">
+                    <span>Συγγραφέας: {{ book.author.first_name }} {{ book.author.last_name }}</span>
+                    <span>Εκδόσεις: {{ book.publisher.name }}</span>
+                </p>
             </div>
         {% endfor %}
     </div>
