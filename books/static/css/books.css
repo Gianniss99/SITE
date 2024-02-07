@@ -159,7 +159,6 @@ h1, h2, h3, h4 {
 /* Στυλ για το κείμενο υπογραφής της ομάδας ανάπτυξης */
 .about-us p.team-names {
     font-style: italic; /* Πλάγια γράμματα */
-    margin-top: 14px; /* Απόσταση πάνω από τα ονόματα της ομάδας */
     font-weight: bold; /* Έντονα γράμματα */
     text-align: right;
 }
