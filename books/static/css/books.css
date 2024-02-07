@@ -153,6 +153,7 @@ h1, h2, h3, h4 {
 .about-us p.signature {
     font-weight: bold; /* Έντονα γράμματα */
     margin-top: 20px; /* Απόσταση πάνω από την υπογραφή */
+    text-align: right;
 }
 
 /* Στυλ για το κείμενο υπογραφής της ομάδας ανάπτυξης */
