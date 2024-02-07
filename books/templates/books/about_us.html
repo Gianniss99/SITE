@@ -1,6 +1,6 @@
 {% extends 'books/base.html' %}
 
-{{% block content %}
+{% block main_content %}
     <div class="about-us">
         <h2>About Us</h2>
         <p>Η web εφαρμογή BooksHub αποτελεί έργο συνεργασίας που υλοποιήθηκε στο πλαίσιο του μαθήματος Ανάπτυξη Λογισμικού, συγκεκριμένα για το μεταπτυχιακό πρόγραμμα Εφαρμοσμένη Πληροφορική του Διεθνούς Πανεπιστημίου της Ελλάδος.
@@ -13,4 +13,5 @@
         </p>
         <a href="{% url 'book_list' %}" class="btn btn-primary">Back to Book List</a>
     </div>
-{% endblock content %}
+{% endblock main_content %}
+
