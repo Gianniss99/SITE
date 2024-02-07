@@ -24,12 +24,12 @@
             position: fixed;
             bottom: 20px;
             right: 20px;
-            font-size: 24px; /* Αυξήστε το μέγεθος των γραμμάτων */
+            font-size: 18px; /* Αυξήστε το μέγεθος των γραμμάτων */
             font-weight: bold;
             text-decoration: none;
             color: #ffffff; /* Χρώμα κειμένου */
             background-color: #007bff; /* Χρώμα φόντου */
-            padding: 15px 30px; /* Αυξήστε το περιθώριο του κουμπιού */
+            padding: 10px 20px; /* Αυξήστε το περιθώριο του κουμπιού */
             border-radius: 8px; /* Αυξήστε την κυκλικότητα των άκρων */
         }
 
@@ -37,6 +37,11 @@
             background-color: #0056b3; /* Χρώμα φόντου κατά το hover */
         }
 </style>
-<a id="about-us-link" href="{% url 'about_us' %}">About Us</a>
+<!-- Εάν ο χρήστης δεν βρίσκεται στη σελίδα "About Us", τότε εμφανίστε τον σύνδεσμο "About Us" -->
+{% if request.path != '/about_us/' %}
+    <!-- Προσθήκη συνδέσμου για τη σελίδα "About Us" με προσαρμοσμένο στυλ -->
+    <a id="about-us-link" href="{% url 'about_us' %}">About Us</a>
+{% endif %}
+
 </body>
 </html>
