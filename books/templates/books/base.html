@@ -15,8 +15,7 @@
     <div class="page-header">
         <h1><a href="/">BooksHub</a></h1>
     </div>
-    {% block content %}
-    {% endblock %}
+    {% block main_content %}{% endblock %}
 </div>
 <style>
         /* Προσαρμογή στυλ για τον σύνδεσμο "About Us" στην κάτω δεξιά γωνία */
@@ -37,10 +36,12 @@
             background-color: #0056b3; /* Χρώμα φόντου κατά το hover */
         }
 </style>
-<!-- Εάν ο χρήστης δεν βρίσκεται στη σελίδα "About Us", τότε εμφανίστε τον σύνδεσμο "About Us" -->
-{% if request.path != '/about_us/' %}
-    <!-- Προσθήκη συνδέσμου για τη σελίδα "About Us" με προσαρμοσμένο στυλ -->
-    <a id="about-us-link" href="{% url 'about_us' %}">About Us</a>
-{% endif %}
+{% block content %}
+    <!-- Εάν ο χρήστης δεν βρίσκεται στη σελίδα "About Us", τότε εμφανίστε τον σύνδεσμο "About Us" -->
+    {% if request.path != '/about_us/' %}
+        <!-- Προσθήκη συνδέσμου για τη σελίδα "About Us" με προσαρμοσμένο στυλ -->
+        <a id="about-us-link" href="{% url 'about_us' %}">About Us</a>
+    {% endif %}
+{% endblock content %}
 </body>
 </html>
