@@ -6,14 +6,14 @@
             <div class="text-section">
                 <h2>{{ book.title }}</h2>
                 {% if book.author %}
-                    <p><strong>Συγγραφέας:</strong> {{ book.author.first_name }} {{ book.author.last_name }}</a></p>
+                    <p>Συγγραφέας: <a href="{% url 'book_list' %}?auth={{ book.author.id }}">{{ book.author.first_name }} {{ book.author.last_name }}</a></p>
                 {% endif %}
                 {% if book.publisher %}
-                    <p><strong>Εκδόσεις:</strong> {{ book.publisher.name }}</a></p>
+                    <p>Εκδόσεις: <a href="{% url 'book_list' %}?pub={{ book.publisher.id }}">{{ book.publisher.name }}</a></p>
                 {% endif %}
                 <p><strong>Έτος Έκδοσης:</strong> {{ book.publish_year }}</p>
                 {% if book.category %}
-                    <p><strong>Κατηγορία:</strong> {{ book.category.name }}</a></p>
+                   <p>Κατηγορία: <a href="{% url 'book_list' %}?cat={{ book.category.id }}">{{ book.category.name }}</a></p>
                 {% endif %}
                 <p><strong>Σελίδες:</strong> {{ book.pages }}</p>
             </div>
