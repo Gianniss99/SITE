@@ -37,14 +37,8 @@ h1, h2, h3, h4 {
 
 /* Εφαρμογή των ρυθμίσεων στο κύριο σώμα της σελίδας για να αντικαταστήσει την κλάση .content */
  #container {
-    background: blue;
-    display: block;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0px;
-    left: 0px;
-    2border: 1px solid red;
+    max-width: 100%;
+    margin: 0 auto;
   }
 /* Ρύθμιση για την εμφάνιση των ημερομηνιών, αν και δεν υπάρχει στο παραδοτέο HTML */
 .date {
@@ -119,7 +113,7 @@ h1, h2, h3, h4 {
 }
 
 .panel-heading {
-    min-height: 100px; /* Σταθερό ύψος για τον τίτλο */
+    min-height: 20px; /* Σταθερό ύψος για τον τίτλο */
     display: flex;
     align-items: center; /* Κεντράρει το περιεχόμενο του panel-heading κατακόρυφα */
     flex-wrap: wrap;
