@@ -38,7 +38,8 @@ h1, h2, h3, h4 {
 
 /* Εφαρμογή των ρυθμίσεων στο κύριο σώμα της σελίδας για να αντικαταστήσει την κλάση .content */
 .container {
-    margin-left: 40px;
+    float: none;
+    width: 100%;
 }
 
 /* Ρύθμιση για την εμφάνιση των ημερομηνιών, αν και δεν υπάρχει στο παραδοτέο HTML */
@@ -65,8 +66,6 @@ h1, h2, h3, h4 {
 
 .flex-container {
     display: flex;
-    float: none;
-    width: 100%;
 }
 
 .text-section {
