@@ -1,6 +1,16 @@
 {% extends 'books/base.html' %}
 
 {% block main_content %}
+    <div class="row row2">
+        <div class="col-sm-2">Αναζήτηση</div>
+            <div class="col-sm-8">
+                <form type="get" action=".">
+                    <input type="text" name="txt">
+                    <input  type="submit" value="Submit">
+            </form>
+        </div>
+    </div>
+    <br>
     <div class="book-list">
         {% for book in books %}
             <div class="book-panel">
