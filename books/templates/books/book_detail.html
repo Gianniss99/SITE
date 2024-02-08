@@ -1,25 +1,33 @@
 {% extends 'books/base.html' %}
 
-{% block content %}
+{% block main_content %}
     <div class="book-detail">
-        <h2>{{ book.title }}</h2>
-        {% if book.author %}
-            <p><strong>Συγγραφέας:</strong> <a href="{% url 'book_list' %}?auth={{ book.author.id }}">{{ book.author.first_name }} {{ book.author.last_name }}</a></p>
-        {% endif %}
-        {% if book.publisher %}
-            <p><strong>Εκδόσεις:</strong> <a href="{% url 'book_list' %}?pub={{ book.publisher.id }}">{{ book.publisher.name }}</a></p>
-        {% endif %}
-        <p><strong>Έτος Έκδοσης:</strong> {{ book.publish_year }}</p>
-        {% if book.category %}
-            <p><strong>Κατηγορία:</strong> <a href="{% url 'book_list' %}?cat={{ book.category.id }}">{{ book.category.name }}</a></p>
-        {% endif %}
-		<p><strong>Σελίδες:</strong> {{ book.pages }}</p>
-        {% if book.cover %}
-            <img src="{{ book.cover.url }}" alt="Εξώφυλλο του βιβλίου {{ book.title }}">
-        {% endif %}
+        <div class="flex-container">
+            <div class="text-section">
+                <h2>{{ book.title }}</h2>
+                {% if book.author %}
+                    <p><strong>Συγγραφέας:</strong> {{ book.author.first_name }} {{ book.author.last_name }}</a></p>
+                {% endif %}
+                {% if book.publisher %}
+                    <p><strong>Εκδόσεις:</strong> {{ book.publisher.name }}</a></p>
+                {% endif %}
+                <p><strong>Έτος Έκδοσης:</strong> {{ book.publish_year }}</p>
+                {% if book.category %}
+                    <p><strong>Κατηγορία:</strong> {{ book.category.name }}</a></p>
+                {% endif %}
+                <p><strong>Σελίδες:</strong> {{ book.pages }}</p>
+            </div>
+            <!-- Image on the right -->
+            <div class="top-section">
+                {% if book.cover %}
+                    <img src="{{ book.cover.url }}" alt="Εξώφυλλο του βιβλίου {{ book.title }}" class="book-cover">
+                {% endif %}
+            </div>
+        </div>
         <p><strong>Περίληψη:</strong> {{ book.summary }}</p>
         {% if book.author.biography %}
-             <p><strong>Προφίλ Συγγραφέα:</strong> {{ book.author.biography }}</p>
+            <p><strong>Προφίλ Συγγραφέα:</strong> {{ book.author.biography }}</p>
         {% endif %}
     </div>
-{% endblock %}
+{% endblock main_content %}
+

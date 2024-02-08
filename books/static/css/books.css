@@ -53,14 +53,15 @@ h1, h2, h3, h4 {
 }
 
 .book-detail img {
+    vertical-align: middle; /* Κεντράρει την εικόνα κατακόρυφα */
     float: left;
-    padding-right: 6px;
-    max-width: 150px;
-    height: auto;
+    width: 100px;
+    height: 100px;
 }
 
-.book-detail p {
-    text-align: justify;
+.book-detail {
+    max-width: 800px;
+    margin: 0 auto; /* Κεντράρει το πλαίσιο στην οριζόντια επιφάνεια */
 }
 
 .flex-container {
