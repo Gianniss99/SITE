@@ -9,6 +9,7 @@ body {
 .page-header {
     background-color: #6C3643;
     margin-top: 0;
+    padding: 30px 30px 40px 40px;
 }
 
 .page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
@@ -36,10 +37,11 @@ h1, h2, h3, h4 {
 }
 
 /* Εφαρμογή των ρυθμίσεων στο κύριο σώμα της σελίδας για να αντικαταστήσει την κλάση .content */
- #container {
+.container {
     max-width: 100%;
     margin: 0 auto;
-  }
+}
+
 /* Ρύθμιση για την εμφάνιση των ημερομηνιών, αν και δεν υπάρχει στο παραδοτέο HTML */
 .date {
     color: #747373;
@@ -113,11 +115,10 @@ h1, h2, h3, h4 {
 }
 
 .panel-heading {
-    min-height: 20px; /* Σταθερό ύψος για τον τίτλο */
+    min-height: 200px; /* Σταθερό ύψος για τον τίτλο */
     display: flex;
     align-items: center; /* Κεντράρει το περιεχόμενο του panel-heading κατακόρυφα */
     flex-wrap: wrap;
-    font-size: 6px;
 }
 
 .panel-body {
