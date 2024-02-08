@@ -142,7 +142,6 @@ h1, h2, h3, h4 {
     background-color: #f5f5f5; /* Χρώμα φόντου του footer */
     padding: 20px 0; /* Πάχος padding για το επάνω και το κάτω μέρος του footer */
     text-align: left; /* Κεντράρισμα του κειμένου */
-    margin-top: 40px; /* Απόσταση από το περιεχόμενο πάνω από το footer */
 }
 
 .footer a {
