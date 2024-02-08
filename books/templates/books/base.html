@@ -21,11 +21,7 @@
 <footer class="footer">
         <div class="container">
             <p class="text-muted">
-                <!-- Εάν ο χρήστης δεν βρίσκεται στη σελίδα "About Us", τότε εμφανίστε τον σύνδεσμο "About Us" -->
-                {% if 'about_us' not in request.path %}
-                    <!-- Προσθήκη συνδέσμου για τη σελίδα "About Us" με προσαρμοσμένο στυλ -->
-                    <a id="about-us-link" href="{% url 'about_us' %}">About Us</a>
-                {% endif %}
+                <a href="{% url 'aboutus' %}">About Us</a>
             </p>
         </div>
 </footer>
