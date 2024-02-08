@@ -72,6 +72,13 @@ h1, h2, h3, h4 {
     flex-grow: 1; /* Οι ενότητες κειμένου να μεγαλώνουν για να πάρουν το διαθέσιμο χώρο */
 }
 
+.top-section{
+    float: left;
+    padding-right: 6px;
+    max-width: 150px;
+    height: auto;
+}
+
 .book-cover {
     max-width: 90px;
     max-height: 90px;
