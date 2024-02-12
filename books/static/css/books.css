@@ -159,3 +159,17 @@ h1, h2, h3, h4 {
 .about-us p {
     text-align: justify;
 }
+
+.welcome-message {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.welcome-message h2 {
+  color: #6C3643;
+  margin-bottom: 10px;
+}
+
+.welcome-message p {
+  color: #333;
+  font-size: 18px;
